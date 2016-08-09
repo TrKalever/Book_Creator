@@ -1,4 +1,4 @@
-.join-form-username {
+.join-form {
   width: 75%;
   text-align: center;
   margin: 50px auto;
@@ -6,11 +6,11 @@
   padding: 50px;
   border-radius: 15px;
   box-shadow: 4px 4px 4px black; }
-  .join-form-username label {
+  .join-form label {
     color: black;
     text-transform: uppercase;
     margin-right: 10px; }
-  .join-form-username input {
+  .join-form input {
     border-radius: 0;
     background: grey;
     height: 40px;
@@ -26,15 +26,15 @@
 
 .btn-joinus {
   font-size: 2.4em;
-  height: 75px;
+  height: 75px !important;
   width: 150px;
   display: block;
   color: black;
-  background: #3b3833;
+  background: grey;
   border-radius: 0;
   text-align: center;
   margin: 25px auto; }
   .btn-joinus:hover {
-    background: grey; }
+    background: #3b3833; }
 
 /*# sourceMappingURL=joinus.css.map */

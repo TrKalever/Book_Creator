@@ -1,7 +1,7 @@
 <template name = "joinus">
     <div class = "container landing-container">
         <h1>Create your Account below</h1>
-        <form class = "join-form-username form-inline">
+        <form class = "join-form-username join-form form-inline">
             <div class = "form-group">
                 <label for="username">Username</label>
                 <input type = "text" name = "username" class = "form-control" placeholder ="Enter a username"/>
@@ -11,7 +11,51 @@
                    No
                 </span>
             </div>
-            <button type = "submit" class = "btn btn-joinus">Next</button>
+            <input type = "submit" class = "btn btn-joinus" value = "Next">
+        </form>
+    </div>
+</template>
+
+
+
+
+<template name = "username">
+    <div class = "container landing-container">
+        <h1>Create your Account below</h1>
+
+        <h1>Username: {{username}}</h1>
+        <form class = "join-form-email join-form form-inline">
+            <div class = "form-group">
+                <label for="email">Email</label>
+                <input type = "text" name = "email" class = "form-control" placeholder ="Enter an email"/>
+
+
+                <span class = "input-checkbox">
+                   No
+                </span>
+            </div>
+            <input type = "submit" class = "btn btn-joinus" value = "Next">
+        </form>
+    </div>
+</template>
+
+<template name = "email">
+    <div class = "container landing-container">
+        <h1>Create your Account below</h1>
+
+        <h1>Username: {{username}}</h1>
+        <h1>Email: {{email}}</h1>
+        <form class = "join-form-info join-form form-inline">
+            <div class = "form-group">
+                <label for="email">Info</label>
+                <input type = "text" name = "info" class = "form-control" placeholder ="Enter info"/>
+
+
+                <span class = "input-checkbox">
+                   No
+                </span>
+            </div>
+            <input type = "submit" class = "btn btn-joinus" value = "Next">
         </form>
     </div>
 </template>
