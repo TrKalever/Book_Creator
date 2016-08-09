@@ -4,4 +4,9 @@ Router.map(function(){
        layout: 'layout',
        template: 'landing'
    });
+   this.route('/joinus', {
+      path: '/joinus',
+      layout: 'layout',
+      template: 'joinus'
+   });
 });

@@ -1,6 +1,38 @@
 body {
-  background: mediumpurple;
+  background: #433d46;
   height: 100vh;
-  color: mediumaquamarine; }
+  color: mediumaquamarine;
+  font-family: Arial; }
+
+.landing-container {
+  padding: 35px;
+  background: grey;
+  height: auto;
+  margin: 150px auto;
+  box-shadow: 2px 2px 2px black; }
+  .landing-container h1 {
+    text-align: center;
+    font-size: 3.4em;
+    text-shadow: 2px 2px 2px #2d2d2d;
+    margin-bottom: 25px;
+    color: #3b3833; }
+  .landing-container p {
+    font-size: 2em;
+    margin: 15px 0;
+    color: #4f4c46;
+    font-family: SansSerif; }
+
+.landing-story-image {
+  border: 4px dashed rgba(35, 35, 35, 0.6);
+  width: 250px;
+  height: 250px;
+  margin: 35px auto;
+  background: #6a6a6a; }
+  .landing-story-image h2 {
+    position: relative;
+    padding: 85px 0;
+    color: #393939;
+    font-size: 2.4em;
+    text-align: center; }
 
 /*# sourceMappingURL=landing.css.map */
